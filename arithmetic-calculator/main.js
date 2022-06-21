@@ -6,4 +6,27 @@
 // 4. Division (/)
 // 5. Modulo Operations (%)
 
-const num1 = prompt("Enter your first number:  ")
+const op_list = prompt('Enter operator ( either +, -, *, / or % ): ');
+
+const num1 = parseFloat(prompt("Enter your first number: "));
+const num2 = parseFloat(prompt("Enter your second number: "));
+
+let result;
+
+if (op_list == "+") {
+    result = num1 + num2;
+}
+else if (op_list == "-") {
+    result = num1 - num2;
+}
+else if (op_list == "*") {
+    result = num1 * num2;
+}
+else if (op_list == "/") {
+    result = num1 / num2;
+}
+else {
+    result = num1 % num2;
+}
+
+console.log(`${num1} ${op_list} ${num2} = ${result}`);
