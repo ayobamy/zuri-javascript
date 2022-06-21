@@ -1,6 +1,6 @@
-myName = "Ahmed Olawale"
-myHeight = 175
-myCountry = "Nigeria"
+let myName = "Ahmed Olawale"
+let myHeight = 175
+let myCountry = "Nigeria"
 
 console.log("Name: " + myName)
 console.log("Height: " + myHeight+"cm")
