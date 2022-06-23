@@ -1,3 +1,5 @@
+// This will only appear in the console
+
 let myName = "Ahmed Olawale"
 let myHeight = 175
 let myCountry = "Nigeria"
